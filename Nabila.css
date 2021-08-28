@@ -1,13 +1,14 @@
- 
+
 h1{
 	text-align: center;
 	color: purple;
-	text-transform: uppercase;
+	font-family: sans-serif;
 }
 
 body{
-	background-image: url("sora.jpg")
+	background-color:black;
 	background-position: center;
+	color: white;
 }
 
 p{
@@ -15,10 +16,28 @@ p{
 }
 
 #menu_web{
-	background-color: #f4f4f4;
+	background-color: black;
+	font-weight: bold;
+	font-size: 21px;
+	margin-bottom: 59px;
 }
 
 #text_pertama{
 	text-align: justify;
 	text-indent: 30px;
+	
+}
+
+.menu:link{
+text-decoration: none;
+color: purple;
+}
+
+.menu:hover{
+	background: white;
+	color: purple;
+}
+.menu:active{
+	font-weight: lighter;
+	color: purple;
 }
